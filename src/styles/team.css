@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-image: url('/imgs/bg.png');
+    background-image: url('/src/img/bg.png');
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
