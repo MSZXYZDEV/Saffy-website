@@ -1,7 +1,128 @@
 body {
     margin: 0;
-    background-image: url('/src/img/bg.png');
+    background-image: url('/imgs/bg.png');
     color: #fff;
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+}
+nav ul {
+    margin-left: 100px;
+    white-space: nowrap;
+}
+nav li {
+    display: inline;
+    margin-left: 25px;
+}
+.Saffy {
+    font-size: 25px;
+}
+main {
+    margin-top: 25vh;
+    text-align: center;
+}
+main a {
+    cursor: pointer;
+    width: 100px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+footer {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+main a {
+    text-decoration: none;
+    color: #fff;
+}
+@media (max-width: 600px) {
+    body {
+        font-size: 15px;
+    }
+    nav ul {
+        display: inline;
+    }
+    nav li {
+        display: block;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .Saffy {
+        text-align: center;
+        font-size: 25px;
+    }
+    .support {
+        margin-top: 20px;
+    }
 }
 
+.main-container {
+    text-align: center;
+
+}
+.heading {
+    padding-top: 80px;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+    width: 280px;
+    margin: auto;
+    line-height: 80px;
+}
+.sub-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.members {
+    margin: 10px;
+    padding: 20px;
+    max-width: 20%;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.3%;
+
+}
+.members:hover {
+    background: #fff;
+    color: black;
+}
+.members img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #E1E0DE;
+    border-radius: 50%;
+}
+.name {
+    padding: 20px;
+    color: #8A3E07;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.post {
+    font-style: italic;
+    color: #999;
+    text-align: center;
+}
+.desc {
+    margin: 20px 0;
+    text-align: justify;
+    font-weight: lighter;
+    line-height: 25px;
+    color: #4e4e4e;
+
+}
