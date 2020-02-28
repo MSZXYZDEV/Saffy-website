@@ -13,8 +13,9 @@
     <!--[if lt IE 9]>
 		<script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv-printshiv.min.js"></script>
 	<![endif]-->
+<script src="/src/js/copyright.js"></script>
 </head>
-<body>
+<body onload="copyright()">
 <header class="heading">
     <nav>
         <ul>
@@ -31,6 +32,6 @@
     ${data.autor}
     ${data.tresc}
 </main>
-<footer>Copyright &copy; 2020 by Saffy.pl</footer>
+<footer id="copyright"></footer>
 </body>
 </html>
