@@ -10,21 +10,20 @@
     <link rel="stylesheet" type="text/css" href="/src/styles/main.css">
     <link rel="icon" href="img" type="image/png">
     <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/faa4922b3c.js" crossorigin="anonymous"></script>
     <!--[if lt IE 9]>
 		<script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv-printshiv.min.js"></script>
 	<![endif]-->
+<script src="/src/js/copyright.js"></script>
 </head>
 <body>
 <header class="heading">
     <nav>
         <ul>
             <li><a href="/" rel="index" class="Saffy">Saffy | Official</a></li>
-            <li><i class="fas fa-ticket-alt"></i><a href="https://discord.gg/DDDcD89"> Support serwera</a></li>
-            <li><i class="fas fa-users"></i><a href="/team"> Ekipa bota</a></li>
-            <li><i class="fas fa-terminal"></i><a href="/commands"> Komendy bota</a></li>
-            <li>Serwery: </li>
-            <li>Użytkownicy: </li>
+            <li><a href="https://discord.gg/DDDcD89">Support serwera</a></li>
+            <li><a href="/team">Ekipa bota</a></li>
+            <li>Serwery: ${data.guilds}</li>
+            <li>Użytkownicy: ${data.users}</li>
             
         </ul>
     </nav>
@@ -35,6 +34,6 @@
     <p>Jeden z najnowocześniejszych i najbardziej dopracowanych botów na polskiej scenie Discord!<br>Posidamy opcje takie jak statystyki serwera, komendy 4fun, komendy administracyjne pomagające zarządzać serwerem! </p>
     <a id="button1" href="https://discordapp.com/oauth2/authorize?client_id=584011219103514635&scope=bot&permissions=2146958847" target="_blank">Dodaj bota na serwer</a>
 </main>
-<footer>Copyright &copy; 2020 by Saffy.pl</footer>
+<footer id="copyright"></footer>
 </body>
 </html>
