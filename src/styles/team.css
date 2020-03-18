@@ -72,11 +72,9 @@ main a {
     box-sizing: border-box;
     cursor: pointer;
     transition: 0.3%;
-    transition-duration:0.5s;
 
 }
 .members:hover {
-	border-radius: 12px;
     background: #fff;
     color: black;
 }
@@ -90,7 +88,7 @@ main a {
     padding: 20px;
     color: #8A3E07;
     font-size: 14px;
-
+    text-transform: uppercase;
 }
 .desc {
     margin: 20px 0;
